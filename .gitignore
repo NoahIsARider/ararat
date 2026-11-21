@@ -1,0 +1,13 @@
+node_modules/
+dist/
+*.blend1
+build-blender.log
+render-blender.log
+render-preview.log
+finalize-native.log
+rebuild-ark.log
+.tmp*
+*.files.json
+public/assets/ararat.glb
+blender/*.blend
+artifacts/

@@ -1,0 +1,10 @@
+*{box-sizing:border-box}html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#111615}body{overscroll-behavior:none}canvas{display:block;width:100%;height:100%;outline:none;cursor:grab}canvas:active{cursor:grabbing}#veil{position:fixed;inset:0;background:#131918;pointer-events:none;transition:opacity 2.8s ease}#veil.open{opacity:0}#letterbox{position:fixed;inset:0;pointer-events:none;box-shadow:inset 0 38px #080b0b,inset 0 -38px #080b0b}#failure{position:fixed;inset:40% 15%;color:#e4d4ba;font:20px Georgia,serif;text-align:center} @media(max-width:700px){#letterbox{box-shadow:inset 0 20px #080b0b,inset 0 -20px #080b0b}}
+@font-face{font-family:'Caveat Brush';src:url('/fonts/CaveatBrush-Regular.ttf') format('truetype');font-weight:400;font-style:normal;font-display:block}
+#manuscript{position:fixed;z-index:5;left:50%;bottom:10vh;width:min(960px,88vw);transform:translateX(-50%);opacity:0;visibility:hidden;transition:opacity var(--prose-fade,1800ms) ease-in-out;user-select:none;pointer-events:none}
+#manuscript.reading{visibility:visible}
+#manuscript.visible{opacity:1;pointer-events:auto}
+.story-passage{position:relative;cursor:pointer;padding:10px 8px;background:none;border:0;box-shadow:none}
+.memory-ink{margin:0;color:#f1e7d1;font:400 clamp(30px,3.1vw,44px)/1.30 'Caveat Brush',cursive;letter-spacing:.018em;white-space:pre-line;transform:rotate(var(--ink-angle,-.15deg));-webkit-text-stroke:.23px currentColor;text-shadow:0 2px 3px #111a1bd9,0 4px 15px #081012b3;filter:url('#rough-ink');text-align:center}
+#story-black{position:fixed;z-index:4;inset:0;background:#000;pointer-events:none;opacity:0}
+body.on-voyage canvas{cursor:none}
+@media(max-width:700px){#manuscript{bottom:9vh;width:93vw}.story-passage{padding:6px}.memory-ink{font-size:30px}}

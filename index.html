@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#252c2d" />
+    <title>ARARAT — We Never Arrived</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath fill='%235e7350' d='M6 29Q9 10 28 3Q27 23 6 29Z'/%3E%3C/svg%3E" />
+    <meta name="description" content="An explorable visual novel of redemption and self-exile. Walk the first earth after the flood, then leave toward the setting sun." />
+  </head>
+  <body>
+    <svg width="0" height="0" aria-hidden="true" style="position:absolute"><filter id="rough-ink"><feTurbulence type="fractalNoise" baseFrequency=".09 .24" numOctaves="2" seed="7" result="noise"/><feDisplacementMap in="SourceGraphic" in2="noise" scale=".65" xChannelSelector="R" yChannelSelector="G"/></filter></svg>
+    <canvas id="world" aria-label="An explorable landscape at Mount Ararat. Click to enter. Walk with WASD, look with the mouse, Escape to release."></canvas>
+    <div id="veil" aria-hidden="true"></div>
+    <div id="letterbox" aria-hidden="true"></div>
+    <p id="failure" role="alert" hidden>The landscape could not be opened. Please reload in a browser with WebGL enabled.</p>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
