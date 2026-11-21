@@ -1,10 +1,29 @@
 # ARARAT — The First Earth
 
+*The water withdrew. The names did not.*
+
+**[Enter the world →](https://noahisarider.github.io/ararat/)** · [Download the Blender scene](https://github.com/NoahIsARider/ararat/releases/tag/v1.0.0)
+
+[![The enormous weathered ark beneath cold mountains, with handwritten opening prose over the newly exposed earth](docs/screenshots/first-earth.png)](https://noahisarider.github.io/ararat/)
+
 An original explorable visual novel set on the newly exposed earth after the flood. The enormous cedar hull, ochre-grey sediment, olive cutting and single shore boat frame a story of redemption and self-exile: we never arrived at the promised land. Biblical imagery is interpreted artistically; this is not an archaeological reconstruction.
 
 The mountain pass adds six individually shaped massifs with broad summits, fractured secondary ridges, erosion gullies, alternating rock strata and irregular pockets of lingering snow. They are an artistic interpretation rather than a survey of the real mountain. Sparse sedge islands, curved fern fronds, opposing cotyledons and moss fitted to stone surfaces suggest life returning to sheltered ground. The surrounding bare earth is intentional.
 
 The atmosphere aims for the stillness of a world washed clean: cold sky bounce, a restrained break in the storm, pewter water, damp grey ochre and a little warmth at the ark's threshold. The sense of the sacred comes from scale, light and fragile new growth. In the final departure the sea turns orange-red and gold beneath a setting sun. Thick, rough handwritten English prose floats directly over the landscape, with no scroll, paper, dialogue panel, border or modern buttons.
+
+## Glimpses of the world
+
+| A fragile beginning | What the ark remembers |
+| --- | --- |
+| ![A fresh olive branch resting on a stone above damp, cracked flood sediment](docs/screenshots/olive-branch.png) | ![The dark timber interior of the ark, with a linen-covered table and olive cutting](docs/screenshots/inside-the-ark.png) |
+| Search the washed earth for a sign of life. | Step inside the cedar hull and uncover the memories left behind. |
+
+![The view from a small wooden boat toward an orange-red sunset and a trail of golden light on the sea](docs/screenshots/toward-the-sunset.png)
+
+*Beyond the shore, redemption and self-exile share the same horizon.*
+
+These are in-browser captures of the playable exhibition. Walk freely, discover three memories, then choose to leave the shore.
 
 ## Open the landscape
 
